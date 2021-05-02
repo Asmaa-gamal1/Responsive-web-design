@@ -1,13 +1,13 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #f0f8f8;
+    background-color: #f1feff;
 }
 
 
 /* navbar */
 .navbar{
-    background: linear-gradient( to left , #4bc9b8  ,  rgba(0, 0, 0, 0.822)  );
+    background: linear-gradient( to left , #32d6d6  ,  rgba(49, 48, 48, 0.918)  );
 }
 .logo{
     width: 50px;
@@ -15,14 +15,14 @@ body{
 }
 .navbar-brand{
      margin:0;
-     font-family: serif;
-     color: #bbdbdd !important;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #d3ebec !important;
      font-weight: bold;
      
 }
 .navbar ul li a{
     color: rgb(255, 255, 255) !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 30px;
     transition-duration: 0.2s;
 }
@@ -79,11 +79,13 @@ body{
 
 /* end section1 */
 
+
 .second-section{
     position: relative;
     margin-top: 20px;
     }
 
+    
 .third-section{
     background-color: #92ffff3f;
     margin-top: 20px;
@@ -91,9 +93,16 @@ body{
     text-align: center;
 }
 
+.card{
+  margin-top: 40px;
+}
+
+
+
 h2{
     padding: 5px;
     margin: 10px;
+    margin-bottom: 0;
 }
 hr{
   width: 20%;
@@ -107,9 +116,19 @@ hr{
 @media(max-width:767px){
 .child-par{
   overflow: hidden;
+} 
 
-}}
-p{
+hr{
+  width: 50%;
+
+}
+.card{
+  margin: auto;
+  margin-top: 35px;
+}
+
+}
+.profile-pargraphe{
     text-align: left;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -120,21 +139,40 @@ p{
 }
 
 .form-section{
-  background-color: rgba(149, 162, 233, 0.192);
-  padding: 2px;
-  
-}
+  background-color:  #92ffff3f;
+    padding: 2px;
+  }
 
 form{
     margin-top: 50px;
-    width: 400px;
+    margin-left: 450px;
+    margin-right: 30px;
+    width: 500px;
     margin-bottom: 20px;
 }
- 
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.btn-light {
+  margin-left: 420px;
+  background-color: white;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media (max-width:767px){
   form{
     width: 300px;
+    margin-left: 0;
+    margin-right: 0; 
   }
+  .btn-light {
+    margin-left: 0;}
 
 }
 
